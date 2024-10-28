@@ -7,6 +7,9 @@ WeatherNow is a weather forecasting application that allows users to fetch curre
 - **Caching**: Stores previous weather data for 15 minutes to reduce API calls.
 - **User-Friendly Interface**: Intuitive design for easy navigation.
 - **Responsive Design**: Works well on both mobile and desktop devices.
+  
+## Live Demo
+Check out the live application here: [WeatherNow](https://luxury-frangollo-2a65bf.netlify.app)
 
 ## Technologies Used
 - **HTML**: Application structure
