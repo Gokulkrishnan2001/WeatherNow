@@ -25,5 +25,3 @@ To set up the project locally:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Gokulkrishnan2001/WeatherNow.git
-2.cd WeatherNow.
-3.Open index.html in your browser to view the application.
