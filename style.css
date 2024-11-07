@@ -181,6 +181,71 @@ button {
   }
 }
 
+@media (max-width: 426px) {
+  body {
+    background-size: 130%;
+    background-position: center;
+  }
+  .weather {
+    max-width: 425px;
+  }
+  .weatherbox {
+    border-radius: 1rem;
+    height: auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    max-width: 425px;
+  }
+  .container .title h1 {
+    align-items: start;
+    font-size: 2rem;
+  }
+
+  .container .search-box {
+    position: relative;
+    left: -20px;
+  }
+  .container .search-box button {
+    margin-top: 0.5rem;
+  }
+  .cityname {
+    flex-direction: row;
+    grid-row-start: 1;
+    border-bottom: 2px dashed white;
+    border-right: none;
+    grid-column-start: 1;
+  }
+
+  .cityname h1 {
+    font-size: 1rem;
+  }
+  .cityname h5 {
+    padding-left: 3px;
+    font-size: 0.7rem;
+  }
+  .temperature {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+  .temperature h1 {
+    font-size: 1.8rem;
+  }
+  .humidity {
+    border-right: none;
+    font-size: 1rem;
+    grid-row-start: 3;
+    grid-column-start: 1;
+  }
+  .windspeed {
+    font-size: 1rem;
+    grid-row-start: 4;
+    grid-column-start: 1;
+  }
+}
+
 @media (max-width: 320px) {
   body {
     background-size: 130%;
